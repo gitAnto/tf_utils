@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>tf_utils</name>
+  <version>1.0.0</version>
+  <description>The tf_utils package</description>
+
+  <maintainer email="ing.petitti@gmail.com">Antonio Petitti</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <url type="website">http://www.github.com/gitanto/tf_utils</url>
+
+
+  <author email="donatodipaola@gmail.com">Donato Di Paola</author>
+  <author email="ing.petitti@gmail.com">Antonio Petitti</author>
+  <author email="antoniocoratelli@gmail.com">Antonio Coratelli</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+
+
+
+</package>

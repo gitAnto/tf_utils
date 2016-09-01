@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the tf2topic node -->
+	<node pkg="tf_utils" type="tf2topic_posestamped.py" name="peoplebot_baselink_pub">
+		<param name="frame_ref" type="string" value="map" />
+		<param name="frame_id"  type="string" value="openni_camera_link" />
+		<param name="topic"     type="string" value="robot_pose" />
+		<param name="rate"      type="double" value="10.0" />
+	</node>
+</launch>

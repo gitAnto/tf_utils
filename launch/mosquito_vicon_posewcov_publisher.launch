@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the tf2topic node -->
+	<node pkg="tf_utils" type="tf2topic_posewcovstamped.py" name="mosquito_vicon_posecov_pub">
+		<param name="frame_ref" type="string" value="/vicon/landing_pad/landing_pad" />
+		<param name="frame_id"  type="string" value="/vicon/mosquito/mosquito" />
+		<param name="topic"     type="string" value="uav_pose_w_cov" />
+		<param name="rate"      type="double" value="10.0" />
+	</node>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+	<!-- run the topic2tf node -->
+	<node pkg="tf_utils" type="topic2tf_odometry.py" name="charlie_odom_broadcaster">
+		<param name="frame_ref" type="string" value="world" />
+		<param name="frame_id"  type="string" value="charlie" />
+		<param name="topic"     type="string" value="position" />
+	</node>
+</launch>
